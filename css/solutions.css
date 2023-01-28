@@ -107,7 +107,7 @@
 }
 
 
-.ex-12-top-white{
+.ex-12-button:hover >.ex-12-top-white{
     animation-name: muovi;
     animation-duration: 3s;
     animation-iteration-count: infinite;
@@ -116,25 +116,18 @@
 
 
 @keyframes muovi{
-    0%{
-
-        
-        }
+  
 
     50%{
         margin-left: 100px;
     }
 
 
-    100%{
-        
-        
-    }
-
+  
 }
 
 
-.ex-12-bottom-white{
+.ex-12-button:hover >.ex-12-bottom-white{
     animation-name: muovi2;
     animation-duration: 3s;
     animation-iteration-count: infinite;
@@ -143,30 +136,18 @@
 
 
 @keyframes muovi2{
-    0%{
-
-        
-        }
+   
 
     50%{
         margin-right: 80px;
     }
 
 
-    100%{
-        
-        
-    }
-
+ 
 }
 
 
-
-
-
-
-
-.ex-13-top-white{
+.ex-13-button:hover >.ex-13-top-white{
     animation-name: giro2;
     
     animation-duration: 1s;
@@ -194,7 +175,7 @@
     
 }
 
-.ex-13-bottom-white{
+.ex-13-button:hover >.ex-13-bottom-white{
     animation-name: giro3;
     
     animation-duration: 1s;
