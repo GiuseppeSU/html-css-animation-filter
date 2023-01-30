@@ -91,16 +91,13 @@
 }
 
 @keyframes ruota2 {
-    0% {
-        transform: rotate(0deg);
+    90% {
+        transform: rotate(270deg);
     }
 
-    50% {
-        transform: rotate(240deg);
-    }
+   
 
     100%{
-        transition-duration:1s;
         transform: rotate(0deg);
 
     }
